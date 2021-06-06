@@ -1,3 +1,3 @@
 # My personal website🏠
 
-![](https://github.com/JesperBry/jesperbry.com/workflows/build-deploy/badge.svg)
+![](https://github.com/JesperBry/jesperbry.com/actions/workflows/build-deploy.yml/badge.svg)
