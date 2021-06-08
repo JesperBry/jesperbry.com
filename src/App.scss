@@ -1,0 +1,13 @@
+.App {
+  height: 100vh;
+  background-image: url("/assets/img/bg_image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  p {
+    color: honeydew;
+    font-size: 2rem;
+    padding: 1.6rem;
+  }
+}
