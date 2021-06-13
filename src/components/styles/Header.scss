@@ -1,0 +1,53 @@
+$vhStart: 65vh;
+$vhEnd: 55vh;
+
+.header {
+  h1 {
+    color: honeydew;
+    font-size: 8rem;
+    padding: 1.6rem;
+    font-weight: lighter;
+    position: absolute;
+    top: 55%;
+    left: 8%;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translate3d(0, $vhStart, 0);
+  }
+
+  to {
+    transform: translate3d(0, $vhEnd, 0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    transform: translate3d(0, $vhStart, 0);
+  }
+
+  to {
+    transform: translate3d(0, $vhEnd, 0);
+    opacity: 1;
+  }
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+}
+
+.animatedFadeInUp {
+  opacity: 0;
+}
+
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+}
