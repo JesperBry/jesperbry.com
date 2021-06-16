@@ -2,7 +2,7 @@ import React from "react";
 
 import "./styles/MediaBar.scss";
 
-const MediaBar = () => {
+const MediaBar: React.FC = () => {
   return <div></div>;
 };
 

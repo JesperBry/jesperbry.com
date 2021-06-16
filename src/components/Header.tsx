@@ -4,7 +4,7 @@ import MediaBar from "./MediaBar";
 
 import "./styles/Header.scss";
 
-const Header = () => {
+const Header: React.FC = () => {
   return (
     <div className="header animated animatedFadeInUp fadeInUp">
       <h1>Hi, my name is Jesper</h1>
