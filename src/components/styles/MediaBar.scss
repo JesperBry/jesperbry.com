@@ -1,0 +1,23 @@
+img {
+  width: 3rem;
+}
+
+.iconBar {
+  position: relative;
+  left: 8%;
+  top: 70%;
+  padding: 1.6;
+
+  .sosial_media_icon {
+    padding: 2rem;
+    transition: transform 0.2s ease;
+  }
+
+  .sosial_media_icon :hover {
+    transform: scale(1.2);
+  }
+
+  .sosial_media_icon :active {
+    transform: scale(1.2);
+  }
+}
