@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jesperbry.com/static/css/main.cc3aeae7.chunk.css",
-    "main.js": "/jesperbry.com/static/js/main.93c73a3e.chunk.js",
-    "main.js.map": "/jesperbry.com/static/js/main.93c73a3e.chunk.js.map",
+    "main.js": "/jesperbry.com/static/js/main.fe1d0edb.chunk.js",
+    "main.js.map": "/jesperbry.com/static/js/main.fe1d0edb.chunk.js.map",
     "runtime-main.js": "/jesperbry.com/static/js/runtime-main.7890df42.js",
     "runtime-main.js.map": "/jesperbry.com/static/js/runtime-main.7890df42.js.map",
     "static/js/2.c9e3098f.chunk.js": "/jesperbry.com/static/js/2.c9e3098f.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.7890df42.js",
     "static/js/2.c9e3098f.chunk.js",
     "static/css/main.cc3aeae7.chunk.css",
-    "static/js/main.93c73a3e.chunk.js"
+    "static/js/main.fe1d0edb.chunk.js"
   ]
 }
