@@ -7,7 +7,7 @@ type Props = {
 };
 
 const MediaBar: React.FC<Props> = (props) => {
-  const mediaList: any = props.mediaArr.map((media) => {
+  const mediaList: JSX.Element[] = props.mediaArr.map((media) => {
     return (
       <a
         href={(media as any).url}
