@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jesperbry.com/static/css/main.cd356c8c.chunk.css",
+    "main.css": "/jesperbry.com/static/css/main.94bf68d0.chunk.css",
     "main.js": "/jesperbry.com/static/js/main.ed360bd8.chunk.js",
     "main.js.map": "/jesperbry.com/static/js/main.ed360bd8.chunk.js.map",
     "runtime-main.js": "/jesperbry.com/static/js/runtime-main.b934e047.js",
@@ -10,7 +10,7 @@
     "static/js/3.ae29f882.chunk.js": "/jesperbry.com/static/js/3.ae29f882.chunk.js",
     "static/js/3.ae29f882.chunk.js.map": "/jesperbry.com/static/js/3.ae29f882.chunk.js.map",
     "index.html": "/jesperbry.com/index.html",
-    "static/css/main.cd356c8c.chunk.css.map": "/jesperbry.com/static/css/main.cd356c8c.chunk.css.map",
+    "static/css/main.94bf68d0.chunk.css.map": "/jesperbry.com/static/css/main.94bf68d0.chunk.css.map",
     "static/js/2.20e393e2.chunk.js.LICENSE.txt": "/jesperbry.com/static/js/2.20e393e2.chunk.js.LICENSE.txt",
     "static/media/dribbble-brands.c680510d.svg": "/jesperbry.com/static/media/dribbble-brands.c680510d.svg",
     "static/media/github-brands.865dbb34.svg": "/jesperbry.com/static/media/github-brands.865dbb34.svg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.b934e047.js",
     "static/js/2.20e393e2.chunk.js",
-    "static/css/main.cd356c8c.chunk.css",
+    "static/css/main.94bf68d0.chunk.css",
     "static/js/main.ed360bd8.chunk.js"
   ]
 }
