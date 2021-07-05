@@ -12,7 +12,7 @@ const Navbar: React.FC = () => {
   const isActive: any = (path: string, match: any, location: any) =>
     !!(match || path === location.pathname);
 
-  const toggleNav = () => {
+  const toggleNav: VoidFunction = () => {
     setToggle(!toggle);
   };
 
