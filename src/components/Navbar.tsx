@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
-import "./styles/Navbar.scss";
+import MenuBtn from "./MenuBtn";
 
-import BarsIcon from "../assets/icons/grip-lines-solid.svg";
-import CrossIcon from "../assets/icons/times-solid.svg";
+import "./styles/Navbar.scss";
 
 const Navbar: React.FC = () => {
   const [toggle, setToggle] = useState<boolean>(false);
@@ -19,13 +18,9 @@ const Navbar: React.FC = () => {
   return (
     <>
       <div className="navbar">
-        <button className="menuButton" onClick={toggleNav}>
-          {toggle ? (
-            <img src={CrossIcon} alt="" className="menuIcons" />
-          ) : (
-            <img src={BarsIcon} alt="" className="menuIcons" />
-          )}
-        </button>
+        <div className="menuButton" onClick={toggleNav}>
+          <MenuBtn />
+        </div>
         <div className="navLinks">
           <ul className={toggle ? "links show-nav" : "links"}>
             <li>
