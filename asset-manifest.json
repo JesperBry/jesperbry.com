@@ -1,29 +1,27 @@
 {
   "files": {
-    "main.css": "/jesperbry.com/static/css/main.94bf68d0.chunk.css",
-    "main.js": "/jesperbry.com/static/js/main.ed360bd8.chunk.js",
-    "main.js.map": "/jesperbry.com/static/js/main.ed360bd8.chunk.js.map",
-    "runtime-main.js": "/jesperbry.com/static/js/runtime-main.b934e047.js",
-    "runtime-main.js.map": "/jesperbry.com/static/js/runtime-main.b934e047.js.map",
-    "static/js/2.20e393e2.chunk.js": "/jesperbry.com/static/js/2.20e393e2.chunk.js",
-    "static/js/2.20e393e2.chunk.js.map": "/jesperbry.com/static/js/2.20e393e2.chunk.js.map",
-    "static/js/3.ae29f882.chunk.js": "/jesperbry.com/static/js/3.ae29f882.chunk.js",
-    "static/js/3.ae29f882.chunk.js.map": "/jesperbry.com/static/js/3.ae29f882.chunk.js.map",
+    "main.css": "/jesperbry.com/static/css/main.6231e305.chunk.css",
+    "main.js": "/jesperbry.com/static/js/main.d25ed3e7.chunk.js",
+    "main.js.map": "/jesperbry.com/static/js/main.d25ed3e7.chunk.js.map",
+    "runtime-main.js": "/jesperbry.com/static/js/runtime-main.ec84982c.js",
+    "runtime-main.js.map": "/jesperbry.com/static/js/runtime-main.ec84982c.js.map",
+    "static/js/2.6a8e2a5d.chunk.js": "/jesperbry.com/static/js/2.6a8e2a5d.chunk.js",
+    "static/js/2.6a8e2a5d.chunk.js.map": "/jesperbry.com/static/js/2.6a8e2a5d.chunk.js.map",
+    "static/js/3.07414731.chunk.js": "/jesperbry.com/static/js/3.07414731.chunk.js",
+    "static/js/3.07414731.chunk.js.map": "/jesperbry.com/static/js/3.07414731.chunk.js.map",
     "index.html": "/jesperbry.com/index.html",
-    "static/css/main.94bf68d0.chunk.css.map": "/jesperbry.com/static/css/main.94bf68d0.chunk.css.map",
-    "static/js/2.20e393e2.chunk.js.LICENSE.txt": "/jesperbry.com/static/js/2.20e393e2.chunk.js.LICENSE.txt",
+    "static/css/main.6231e305.chunk.css.map": "/jesperbry.com/static/css/main.6231e305.chunk.css.map",
+    "static/js/2.6a8e2a5d.chunk.js.LICENSE.txt": "/jesperbry.com/static/js/2.6a8e2a5d.chunk.js.LICENSE.txt",
     "static/media/dribbble-brands.c680510d.svg": "/jesperbry.com/static/media/dribbble-brands.c680510d.svg",
     "static/media/github-brands.865dbb34.svg": "/jesperbry.com/static/media/github-brands.865dbb34.svg",
-    "static/media/grip-lines-solid.19a46291.svg": "/jesperbry.com/static/media/grip-lines-solid.19a46291.svg",
     "static/media/instagram-brands.305fd285.svg": "/jesperbry.com/static/media/instagram-brands.305fd285.svg",
     "static/media/linkedin-in-brands.a3df22ec.svg": "/jesperbry.com/static/media/linkedin-in-brands.a3df22ec.svg",
-    "static/media/times-solid.1cbfe39e.svg": "/jesperbry.com/static/media/times-solid.1cbfe39e.svg",
     "static/media/youtube-brands.16d94b15.svg": "/jesperbry.com/static/media/youtube-brands.16d94b15.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b934e047.js",
-    "static/js/2.20e393e2.chunk.js",
-    "static/css/main.94bf68d0.chunk.css",
-    "static/js/main.ed360bd8.chunk.js"
+    "static/js/runtime-main.ec84982c.js",
+    "static/js/2.6a8e2a5d.chunk.js",
+    "static/css/main.6231e305.chunk.css",
+    "static/js/main.d25ed3e7.chunk.js"
   ]
 }
