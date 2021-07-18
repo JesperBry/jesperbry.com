@@ -1,0 +1,32 @@
+$textColor: honeydew;
+$filterbrightness: brightness(80%);
+
+.container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  width: auto;
+  padding: 1.6rem;
+
+  h1 {
+    color: $textColor;
+    font-size: 12rem;
+    font-weight: lighter;
+  }
+
+  h2 {
+    color: $textColor;
+    filter: $filterbrightness;
+    font-size: 4rem;
+  }
+
+  p {
+    color: $textColor;
+    filter: $filterbrightness;
+    font-size: 1.6rem;
+    margin-bottom: 10rem;
+  }
+}

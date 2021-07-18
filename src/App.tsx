@@ -1,20 +1,36 @@
 import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import Navbar from "./components/Navbar";
-import Header from "./components/Header";
+import HomePage from "./components/pages/Home";
+import AboutPage from "./components/pages/About";
+import SkillsPage from "./components/pages/Skills";
+import ContactPage from "./components/pages/Contact";
+import NotFoundPage from "./components/pages/NotFound";
 
 import "./App.scss";
 
-function App() {
+const App: React.FC = () => {
   return (
     <Router>
-      <div className="App">
-        <Navbar />
-        <Header />
-      </div>
+      <Switch>
+        <Route path="/" component={HomePage} exact />
+        <Route path="/jesperbry.com" component={HomePage} exact />
+        <Route path="/about" exact>
+          <AboutPage />
+          <HomePage />
+        </Route>
+        <Route path="/skills" exact>
+          <SkillsPage />
+          <HomePage />
+        </Route>
+        <Route path="/contact" exact>
+          <ContactPage />
+          <HomePage />
+        </Route>
+        <Route path="*" component={NotFoundPage} />
+      </Switch>
     </Router>
   );
-}
+};
 
 export default App;
