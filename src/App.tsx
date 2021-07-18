@@ -11,10 +11,9 @@ import "./App.scss";
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route path="/" component={HomePage} exact />
-        <Route path="/jesperbry.com" component={HomePage} exact />
         <Route path="/about" exact>
           <AboutPage />
           <HomePage />
