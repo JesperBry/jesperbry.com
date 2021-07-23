@@ -1,14 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 
 import "./styles/MenuBtn.scss";
 
-const MenuBtn: React.FC = () => {
-  const [enabled, setEnabled] = useState<boolean>(false);
+type Props = {
+  enabled: boolean;
+};
 
+const MenuBtn: React.FC<Props> = (props) => {
   return (
     <div
-      className={enabled ? "btn-container is-active" : "btn-container"}
-      onClick={() => setEnabled(!enabled)}
+      className={props.enabled ? "btn-container is-active" : "btn-container"}
     >
       <div className="bar1"></div>
       <div className="bar2"></div>

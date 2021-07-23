@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { NavLink } from "react-router-dom";
 
 import MenuBtn from "./MenuBtn";
@@ -7,6 +7,7 @@ import "./styles/Navbar.scss";
 
 const Navbar: React.FC = () => {
   const [toggle, setToggle] = useState<boolean>(false);
+  const menuBtn = useRef() as React.MutableRefObject<HTMLDivElement>;
 
   const isActive: any = (path: string, match: any, location: any) =>
     !!(match || path === location.pathname);
@@ -18,8 +19,8 @@ const Navbar: React.FC = () => {
   return (
     <>
       <div className="navbar">
-        <div className="menuButton" onClick={toggleNav}>
-          <MenuBtn />
+        <div ref={menuBtn} className="menuButton" onClick={toggleNav}>
+          <MenuBtn enabled={toggle} />
         </div>
         <div className="navLinks">
           <ul className={toggle ? "links show-nav" : "links"}>
@@ -28,6 +29,9 @@ const Navbar: React.FC = () => {
                 to={"/about"}
                 activeClassName="nav-link--active"
                 isActive={isActive.bind(this, "/about")}
+                onClick={() => {
+                  menuBtn.current.click();
+                }}
               >
                 {"ABOUT"}
               </NavLink>
@@ -37,6 +41,9 @@ const Navbar: React.FC = () => {
                 to={"/skills"}
                 activeClassName="nav-link--active"
                 isActive={isActive.bind(this, "/skills")}
+                onClick={() => {
+                  menuBtn.current.click();
+                }}
               >
                 {"SKILLS"}
               </NavLink>
@@ -46,6 +53,9 @@ const Navbar: React.FC = () => {
                 to={"/contact"}
                 activeClassName="nav-link--active"
                 isActive={isActive.bind(this, "/contact")}
+                onClick={() => {
+                  menuBtn.current.click();
+                }}
               >
                 {"CONTACT"}
               </NavLink>
