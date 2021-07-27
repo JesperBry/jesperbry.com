@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/jesperbry.com/static/css/main.8aa76c32.chunk.css",
-    "main.js": "/jesperbry.com/static/js/main.8f2c405c.chunk.js",
-    "main.js.map": "/jesperbry.com/static/js/main.8f2c405c.chunk.js.map",
+    "main.js": "/jesperbry.com/static/js/main.62012705.chunk.js",
+    "main.js.map": "/jesperbry.com/static/js/main.62012705.chunk.js.map",
     "runtime-main.js": "/jesperbry.com/static/js/runtime-main.7d3316b8.js",
     "runtime-main.js.map": "/jesperbry.com/static/js/runtime-main.7d3316b8.js.map",
-    "static/js/2.2e30a2ee.chunk.js": "/jesperbry.com/static/js/2.2e30a2ee.chunk.js",
-    "static/js/2.2e30a2ee.chunk.js.map": "/jesperbry.com/static/js/2.2e30a2ee.chunk.js.map",
+    "static/js/2.7da2cf7a.chunk.js": "/jesperbry.com/static/js/2.7da2cf7a.chunk.js",
+    "static/js/2.7da2cf7a.chunk.js.map": "/jesperbry.com/static/js/2.7da2cf7a.chunk.js.map",
     "static/js/3.532cb745.chunk.js": "/jesperbry.com/static/js/3.532cb745.chunk.js",
     "static/js/3.532cb745.chunk.js.map": "/jesperbry.com/static/js/3.532cb745.chunk.js.map",
     "index.html": "/jesperbry.com/index.html",
     "static/css/main.8aa76c32.chunk.css.map": "/jesperbry.com/static/css/main.8aa76c32.chunk.css.map",
-    "static/js/2.2e30a2ee.chunk.js.LICENSE.txt": "/jesperbry.com/static/js/2.2e30a2ee.chunk.js.LICENSE.txt",
+    "static/js/2.7da2cf7a.chunk.js.LICENSE.txt": "/jesperbry.com/static/js/2.7da2cf7a.chunk.js.LICENSE.txt",
     "static/media/dribbble-brands.c680510d.svg": "/jesperbry.com/static/media/dribbble-brands.c680510d.svg",
     "static/media/github-brands.865dbb34.svg": "/jesperbry.com/static/media/github-brands.865dbb34.svg",
     "static/media/instagram-brands.305fd285.svg": "/jesperbry.com/static/media/instagram-brands.305fd285.svg",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7d3316b8.js",
-    "static/js/2.2e30a2ee.chunk.js",
+    "static/js/2.7da2cf7a.chunk.js",
     "static/css/main.8aa76c32.chunk.css",
-    "static/js/main.8f2c405c.chunk.js"
+    "static/js/main.62012705.chunk.js"
   ]
 }
